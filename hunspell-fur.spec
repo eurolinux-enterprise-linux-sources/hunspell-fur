@@ -2,7 +2,7 @@ Name: hunspell-fur
 Summary: Friulian hunspell dictionaries
 %define upstreamid 20050912
 Version: 0.%{upstreamid}
-Release: 8%{?dist}
+Release: 9%{?dist}
 Source: http://digilander.libero.it/paganf/coretors/myspell-fur-12092005.zip
 Group: Applications/Text
 URL: http://digilander.libero.it/paganf/coretors/dizionaris.html
@@ -45,6 +45,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20050912-9
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.20050912-8
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
